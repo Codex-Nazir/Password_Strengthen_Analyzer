@@ -1,0 +1,12 @@
+{
+  "name": "Fortress: Password Strength & Breach Analyzer",
+  "description": "A professional-grade security tool to evaluate password complexity, check for data breaches via HIBP, and generate secure credentials.",
+  "requestFramePermissions": [
+    "clipboard-write"
+  ],
+  "majorCapabilities": [
+    "Password Strength Analysis",
+    "Data Breach Checking",
+    "Secure Password Generation"
+  ]
+}
