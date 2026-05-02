@@ -301,8 +301,32 @@
     </div>
 </div>
 
+    <!-- PRIVACY POLICY SECTION -->
+    <div class="tool-card" id="privacy" style="margin-top: 60px;">
+        <h2 style="color: var(--primary);"><i class="fas fa-user-shield"></i> Privacy Policy</h2>
+        
+        <div style="font-size: 0.95rem; color: var(--text-main); line-height: 1.7;">
+            <p style="margin-bottom: 20px;">Welcome to <strong>VaultGuard Pro</strong>. Your security and privacy are our top priorities. This policy explains how we handle your data when you use this analyzer.</p>
+            
+            <h3 style="font-size: 1.1rem; margin: 20px 0 10px; color: var(--primary);">1. Data Collection & Privacy</h3>
+            <p style="color: var(--text-muted);">We follow a strict <strong>Privacy by Design</strong> philosophy. This tool is built to function with minimal data exposure:</p>
+            <ul style="margin: 10px 0 20px 20px; color: var(--text-muted);">
+                <li><strong>No Personal Information:</strong> We do not collect names, email addresses, or any personally identifiable information.</li>
+                <li><strong>No Password Storage:</strong> Your passwords are never stored on our servers. Analysis is performed locally in your browser.</li>
+                <li><strong>Secure Breach Checks:</strong> We use the <strong>HaveIBeenPwned (HIBP) API</strong> via secure K-Anonymity. Only the first 5 characters of your password's SHA-1 hash are sent to check for breaches. Your full password is <strong>never</strong> exposed over the network.</li>
+            </ul>
+
+            <h3 style="font-size: 1.1rem; margin: 20px 0 10px; color: var(--primary);">2. Security Measures</h3>
+            <p style="color: var(--text-muted);">All communications with third-party APIs (like HIBP) are encrypted via HTTPS. The password analysis logic is entirely client-side, meaning your data stays within your browser session.</p>
+
+            <h3 style="font-size: 1.1rem; margin: 20px 0 10px; color: var(--primary);">3. Contact Information</h3>
+            <p style="color: var(--text-muted);">If you have any questions about our privacy practices, please contact the developer at <a href="mailto:support@nhtechno.online" style="color: var(--primary); text-decoration: none;">support@nhtechno.online</a>.</p>
+        </div>
+    </div>
+</div>
+
 <footer>
-    &copy; 2026 VaultGuard Pro | Integrated Security by NH TECHNO
+    &copy; 2026 VaultGuard Pro | Integrated Security by <a href="https://nhtechno.online" target="_blank" style="color: var(--primary); text-decoration: none; font-weight: 600;">NH TECHNO</a> | <a href="#privacy" style="color: var(--text-muted); text-decoration: none;">Privacy Policy</a>
 </footer>
 
 <script>
